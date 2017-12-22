@@ -16,7 +16,7 @@ public class PageTest {
     public void screenResolutionDefault() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless","disable-gpu");
-        System.setProperty("webdriver.chrome.driver", "./src/test/java/com/spike/headless/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "./src/test/java/com/spike/headless/chromedriver.exe");
         WebDriver webdriver = new ChromeDriver(options);
         webdriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         WebDriver.Window window = webdriver.manage().window();
@@ -30,7 +30,7 @@ public class PageTest {
     public void screenResolutionMax() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless","disable-gpu");
-        System.setProperty("webdriver.chrome.driver", "./src/test/java/com/spike/headless/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "./src/test/java/com/spike/headless/chromedriver.exe");
         WebDriver webdriver = new ChromeDriver(options);
         webdriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         WebDriver.Window window = webdriver.manage().window();
@@ -45,7 +45,7 @@ public class PageTest {
     public void screenResolution1200() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless","disable-gpu");
-        System.setProperty("webdriver.chrome.driver", "./src/test/java/com/spike/headless/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "./src/test/java/com/spike/headless/chromedriver.exe");
         WebDriver webdriver = new ChromeDriver(options);
         webdriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         WebDriver.Window window = webdriver.manage().window();
@@ -60,7 +60,7 @@ public class PageTest {
     public void screenResolution992() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless","disable-gpu");
-        System.setProperty("webdriver.chrome.driver", "./src/test/java/com/spike/headless/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "./src/test/java/com/spike/headless/chromedriver.exe");
         WebDriver webdriver = new ChromeDriver(options);
         webdriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         WebDriver.Window window = webdriver.manage().window();
